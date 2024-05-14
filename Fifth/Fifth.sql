@@ -15,3 +15,15 @@ INSERT INTO Users (ID, SURNAME, DEPARTMENT_ID, SALARY) VALUES
 (6, 'Антропов', 1, 100000.00),
 (7, 'Андреев', 4, 110000.00),
 (8, 'Силантьев', 1, 120000.00);
+
+
+CREATE TABLE Department (
+    ID INT PRIMARY KEY,
+    DEPARTMENT_NAME VARCHAR(255)
+);
+
+INSERT INTO Department (ID, DEPARTMENT_NAME) VALUES
+(1, 'Backend'),
+(2, 'DevOps'),
+(3, 'Android'),
+(4, 'iOS');
